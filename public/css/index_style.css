@@ -1,0 +1,359 @@
+#headmenu #h1 {
+    background-color: #bbb5ce;
+}
+
+#headmenu #n1 {
+    color: #bbb5ce;
+}
+
+#mainlogo {
+    width: 640px;
+    height: 480px;
+    background-image: url("../pics/logo_wide.png");
+    float: right;
+    margin-top: 5px;
+    margin-right: 60px;
+    border: 5px solid #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #999999, -2px -2px 5px #999999;
+    transition: all 0.5s ease-in-out;
+}
+
+#mainlogo:hover {
+    background-image: url("../pics/logo_wide2.png");
+    transition: all 0.5s ease-in-out;
+}
+
+#welcome {
+    margin: 20px auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #565070;
+}
+
+#welcome2 {
+    font-family: '微软雅黑';
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    width: 450px;
+    color: #777;
+    margin: 5px auto;
+    margin-bottom: 15px;
+}
+
+#titleimg {
+    width: 680px;
+    height: 70px;
+    background-color: #FFFFFF;
+}
+
+#titleimg img {
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.webtext {
+    zoom: 1;
+    overflow: auto;
+    margin-left: 15px;
+}
+
+.webtext table {
+    margin-left: 5px;
+    font-size: 15px;
+    line-height: 40px;
+    overflow: auto;
+    zoom: 1;
+    margin-top: -2px;
+
+}
+
+.webtext table td {
+    color: #565070;
+    border-bottom: dashed 1px #ccc;
+    position: relative;
+}
+
+.webtext table td:first-child a {
+    color: #8692D0;
+    margin-left: 10px;
+    text-decoration: underline;
+
+}
+
+.webtext table td:last-child {
+    color: #8692D0;
+}
+
+.webtext table tr:last-child td {
+    border: none;
+}
+
+.webtext table td a {
+    color: #565070;
+    text-decoration: none;
+}
+
+.webtext table td a:hover {
+    color: #F32F6C;
+}
+
+#leftfirst,
+#leftsecond {
+    float: right;
+    width: 320px;
+    zoom: 1;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    margin-right: 35px;
+    margin-bottom: 30px;
+}
+
+#rightfirst,
+#rightsecond {
+    float: right;
+    width: 320px;
+    zoom: 1;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+#leftfirst,
+#rightfirst {
+    height: 480px;
+}
+
+.titleimg {
+    width: 320px;
+    height: 70px;
+    background-color: #FFFFFF;
+}
+
+.line5 {
+    width: 320px;
+    height: 4px;
+    background-image: linear-gradient(90deg, #bbb5ce, #EBF3FC);
+}
+
+.textlite {
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+    margin: 3px auto;
+
+}
+
+.line_s {
+    width: 260px;
+    margin: 0 auto;
+    margin-top: -13px;
+    margin-bottom: 8px;
+
+}
+
+#info_f {
+    width: 280px;
+    margin: 0 auto;
+    zoom: 1;
+    overflow: auto;
+}
+
+#bookspine {
+    float: left;
+    height: 260px;
+    width: 0px;
+    margin-top: 15px;
+    margin-left: 7px;
+    border-left: 9px dotted #A99AC3;
+}
+
+#infotext {
+    width: 240px;
+    font-size: 12px;
+    height: 270px;
+    margin-left: 30px;
+    color: #8669B9;
+    border: 2px dashed #8669B9;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-indent: 2em;
+    margin-bottom: 15px;
+
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#infotext .hightlight2 {
+    font-style: italic;
+}
+
+#infotext:hover {
+    background-color: rgba(255, 255, 255, 0.90);
+    color: rgba(86, 80, 112, 1.00);
+    border: 2px dashed #9E79BD;
+    transition: all 0.3s ease-in-out;
+}
+
+#infotext:hover .highlight1 {
+    color: #9947FF;
+}
+
+#infotext p {
+    margin: 5px 15px;
+    line-height: 20px;
+}
+
+#infotext a {
+    color: #8692D0;
+}
+
+#infotext a:hover {
+    color: #F32F6C;
+}
+
+.infolink {
+    float: right;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    font-size: 13px;
+    color: #565070;
+}
+
+.infolink a {
+    margin-left: 5px;
+    color: #8692D0;
+}
+
+.infolink a:hover {
+    color: #F32F6C;
+}
+
+.preview {
+    width: 240px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.preview ul li {
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.preview ul li a {
+    margin-left: 5px;
+    color: #592EB5;
+
+}
+
+.preview ul li a:hover {
+    color: #F32F6C;
+
+}
+
+.preview ul li .pre_title {
+    margin-left: 5px;
+    color: #592EB5;
+}
+
+.preview .pre_sub {
+    margin-top: 3px;
+}
+
+.preview .pre_sub .pre_sub_s {
+
+    text-align: right;
+    color: #777;
+    font-size: 12px;
+}
+
+.preview .pre_sub p {
+    font-size: 12px;
+    text-indent: 2em;
+    position: relative;
+    margin: 5px 15px;
+    line-height: 18px;
+}
+
+.preview .pre_sub .marks-l {
+    position: absolute;
+    left: -2em;
+}
+
+.preview .pre_sub .marks-r {
+    position: absolute;
+    right: 0px;
+}
+
+.preview .pre_sub .pre_sub_m {
+    margin-top: 8px;
+    border: 1px dashed #592EB5;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #8669B9;
+    padding: 3px 0;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.preview .pre_sub .pre_sub_m:hover {
+    background-color: rgba(255, 255, 255, 0.90);
+    color: rgba(86, 80, 112, 1.00);
+    border: 1px dashed #9E79BD;
+    transition: all 0.3s ease-in-out;
+}
+
+.preview #pre_audio1,
+.preview #pre_audio2 {
+    background-image: url("../pics/3.gif");
+}
+
+audio {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 220px;
+}
+
+.preview .audiolink {
+    position: absolute;
+    right: 5px;
+}
+
+.preview .sepline {
+    width: 180px;
+    height: 0px;
+    margin: 3px auto;
+    border-bottom: 1px solid #999;
+}
+
+.preview .img_pre {
+    height: 80px;
+    width: 96px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 1px solid #777;
+    transition: filter 0.3s ease-in-out;
+
+}
+
+.preview .img_pre .preview_image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    max-height: 150%;
+    max-width: 150%;
+}
+
+.preview .pre_sub .pre_sub_m:hover .img_pre {
+    filter: brightness(110%);
+    border: 1px solid #999;
+    transition: all 0.3s ease-in-out;
+}

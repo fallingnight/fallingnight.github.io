@@ -1,0 +1,58 @@
+.switchpack {
+    position: absolute;
+    opacity: 0;
+    width: 72px;
+    height: 34px;
+    z-index: 3;
+    bottom: 15px;
+    left: 15px;
+    border-radius: 17px;
+    transition: .4s;
+}
+
+.switch-pack-off {
+    border: #fff solid 2px;
+    background-color: #000000;
+}
+
+.switch-pack-on {
+    border: #ccc solid 2px;
+    background-color: #fff;
+}
+
+#root:hover .switchpack {
+    opacity: 1.0;
+}
+
+.switch {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+
+.switch .switchdot {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 34px;
+    transition: .4s;
+}
+
+.switch-on {
+    background-color: #777;
+}
+
+.switch-off {
+    background-color: #ffffff;
+}
+
+.switch input:checked+.switchdot {
+    transform: translateX(38px);
+}

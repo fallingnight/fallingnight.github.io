@@ -1,0 +1,10 @@
+.mainright {
+    float: right;
+    width: 680px;
+    overflow: auto;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

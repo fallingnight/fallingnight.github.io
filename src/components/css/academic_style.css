@@ -1,0 +1,118 @@
+/* CSS Document */
+html {
+    background-image: url("../pics/background2.jpg");
+    background-attachment: fixed;
+}
+
+
+a {
+    color: #8692D0;
+}
+
+a:hover {
+    color: #F32F6C;
+}
+
+.navmenu .sonmenu li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #565070;
+}
+
+#footmenu {
+    margin-top: 17px;
+    margin-left: 280px;
+    overflow: auto;
+    zoom: 1;
+
+}
+
+.titleimg {
+    width: 680px;
+    height: 70px;
+    background-color: #FFFFFF;
+}
+
+.titleimg img {
+    margin-left: 5px;
+}
+
+.intro {
+    color: #8692D0;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+
+}
+
+.section_intro {
+    color: #777;
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.webtext {
+    zoom: 1;
+    overflow: auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.webtext table {
+    margin-left: 5px;
+    font-size: 15px;
+    line-height: 40px;
+    overflow: auto;
+    zoom: 1;
+    margin-top: -2px;
+
+}
+
+.webtext table td {
+    color: #565070;
+    border-bottom: dashed 1px #ccc;
+    position: relative;
+}
+
+.webtext table td:first-child a {
+    color: #8692D0;
+    margin-left: 10px;
+    text-decoration: underline;
+
+}
+
+.webtext table td:last-child {
+    color: #8692D0;
+}
+
+.webtext table tr:last-child td {
+    border: none;
+}
+
+.webtext table td a {
+    color: #565070;
+    text-decoration: none;
+}
+
+.webtext table td a:hover {
+    color: #F32F6C;
+}
+
+
+#mainleft table img {
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border: 2px solid #937C68;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#mainleft table img:hover {
+    border: 2px dashed #937C68;
+    filter: brightness(110%);
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Pseudo-Prompt Generating in Pre-trained Vision-Language Models for Multi-Label Medical Image Classification",
+        "pic": "/pics/showcase-pspg.jpg",
+        "content": "Pseudo-Prompt Generating <strong>(PsPG)</strong> is designed to address <em>Multi-Label Medical Image Classification</em> task, capitalizing on the priori knowledge of multi-modal features. Featuring a RNN-based decoder, PsPG autoregressively generates class-tailored embedding vectors, i.e., pseudo-prompts.",
+        "time": "2024-04",
+        "code": "https://github.com/fallingnight/PsPG",
+        "paper": "https://arxiv.org/abs/2405.06468",
+        "video": ""
+    },
+    {
+        "id": 2,
+        "title": "Qt-DIS - Simple GUI Segmentation Program",
+        "pic": "/pics/showcase-dis.jpg",
+        "content": "The segmentation method is derived from <em>Highly Accurate Dichotomous Image Segmentation</em> (ECCV'22). I converted pre-trained models to ONNX and built this GUI program using Qt.",
+        "time": "2023-12",
+        "code": "#",
+        "paper": "",
+        "video": ""
+    },
+    {
+        "id": 3,
+        "title": "Wechat Mini Program - School Timetable",
+        "pic": "/pics/showcase-timetable.jpg",
+        "content": "A front-end and back-end separation project. I independently complete the front-end development work. Powered by WXML/Less, TypeScript.",
+        "time": "2023-12",
+        "code": "https://github.com/fallingnight/wxkb",
+        "paper": "",
+        "video": "https://www.bilibili.com/video/BV1RS411F7JY"
+    },
+    {
+        "id": 4,
+        "title": "Bad Apple!! - 30-Frames Video Streaming",
+        "pic": "/pics/showcase-ba.jpg",
+        "content": "Wi-Fi transmission based 30-frames video streaming for MCUs. A server is started on the host to transfer the video frame data via bitstream to a Wi-Fi client on a ESP8266 to play 30-frames videos on the OLED screen. Audio is played synchronously by non-blocking delay.",
+        "time": "2023-10",
+        "code": "https://github.com/fallingnight/bad_apple_ESP8266",
+        "paper": "",
+        "video": "https://www.bilibili.com/video/BV1tc411y759"
+    }
+]

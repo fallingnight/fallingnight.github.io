@@ -1,0 +1,61 @@
+#footarea{
+	margin:0 auto;
+	width:1000px;
+	height:85px;
+	background-color:#fff;
+	text-align:center;
+	overflow:auto;
+	position:relative;
+	zoom:1;
+	font-size:13px;
+}
+#line3{
+	width:1000px;
+	height:6px;
+	background-image:linear-gradient(90deg,#bbb5ce,#EBF3FC);
+	top:0px;
+	position:absolute;
+}
+
+#footmenu{
+	margin-top:17px;
+	margin-left:180px;
+	overflow:auto;
+	zoom:1;
+	
+}
+#footmenu ul{
+    clear:both;
+	color:#ccc;
+
+}
+#footmenu a{
+	text-decoration:none;
+	color:#565070;
+}
+#footmenu ul li{
+	height:20px;
+	float:left;
+	list-style-type:none;
+	margin-left:35px;
+	margin-bottom:5px;
+	
+	
+}
+#footmenu a:hover{
+color:#F32F6C;	
+}
+#bottomline{
+	height:1px;
+	width:730px;
+	margin:0 auto;
+	margin-top:3px;
+	margin-bottom:5px;
+	clear:both;
+	background-color:#cBe3eC;
+	
+}
+#footarea p{
+	color:#565070;
+	clear:both;
+}

@@ -1,0 +1,115 @@
+.slider {
+    margin: 30px 40px 40px 40px;
+}
+
+.slider .slider-interval {
+    padding-left: 10px;
+}
+
+.slider .slider-content {
+    width: 580px;
+    height: 360px;
+    border: 1px dashed #592EB5;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #8669B9;
+    transition: all 0.3s ease-in-out;
+}
+
+.slider .slider-content:hover {
+    background-color: rgba(255, 255, 255, 0.90);
+    color: rgba(86, 80, 112, 1.00);
+    border: 1px dashed #9E79BD;
+    transition: all 0.3s ease-in-out;
+}
+
+.slider .slider-content:hover .top-content {
+    color: #8692D0;
+    transition: all 0.3s ease-in-out;
+}
+
+.slider .top-content {
+    display: flex;
+    width: 560px;
+    height: 50px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.3s ease-in-out;
+}
+
+.slider .left-content {
+    display: block;
+    float: left;
+    height: 310px;
+    width: 50%;
+    position: relative;
+
+}
+
+.slider .right-content {
+    display: block;
+    float: right;
+    height: 310px;
+    width: 50%;
+    position: relative;
+}
+
+.slider .right-content .content-description {
+    font-size: 14px;
+    margin: 5px 10px 10px;
+}
+
+.slider .right-content .time-info {
+    font-size: 14px;
+    color: #aaaaaa;
+    text-align: right;
+    margin-right: 30px;
+    transition: color 0.3s ease-in-out;
+
+}
+
+.slider .slider-content:hover .right-content .time-info {
+    color: #777;
+    transition: color 0.3s ease-in-out;
+}
+
+.slider .left-content img {
+    position: absolute;
+    max-height: 250px;
+    max-width: 250px;
+    border: 5px solid #fff;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #999999, -2px -2px 5px #999999;
+    object-fit: cover;
+
+}
+
+.slider .right-content .icon-links {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    display: flex;
+    font-size: 16px;
+
+}
+
+.slider .right-content .icon-links .icon-item {
+    margin-left: 20px;
+
+}
+
+.slick-dots li button::before {
+    color: #ffffff;
+    opacity: 1.0;
+}
+
+.slick-dots li.slick-active button::before {
+    color: #BBB5CE;
+    opacity: 1.0;
+}
