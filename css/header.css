@@ -1,0 +1,70 @@
+#headarea{
+	margin:0 auto;
+	
+	width:1000px;
+	height:77px;
+	background-color:#FFFFFF;
+	position:fixed;
+	left:50%;
+	transform: translateX(-50%);
+	top:0;
+}
+
+#headarea #line1{
+	width:1000px;
+	height:3px;
+	background-color:#bbb5ce;
+	float:left;
+	margin-top:2px;
+	border-bottom:dashed 2px #fff;
+}
+#headarea img{
+	float:left;
+	margin-left:10px;
+}
+#headarea #headmenu{
+	float:right;
+	height:32px;	
+	font-size:1.3em;
+	text-align:center;
+	border-bottom: 1px solid #cBe3eC;
+	margin-top:20px;
+}
+#headmenu ul{
+	margin-right:55px;
+}
+#headmenu ul li{
+	height:30px;
+	float:left;
+	list-style-type:none;
+	margin-left:35px;
+	margin-bottom:5px;
+	
+}
+#headmenu .highlight{
+	height:4px;
+	width:auto;
+	background-color:none;
+	
+}
+#headmenu a{
+	text-decoration:none;
+	color:#565070;
+}
+#headmenu a:hover{
+	color:#ccc;
+	
+}
+#headmenu a:hover+.highlight{
+	background-color:#bbb5ce;
+	transition:all 0.3s ease-in-out;
+	
+}
+#headarea #shortinfo{
+	position:absolute;
+	font-size:11px;
+	color:#999;
+	left:225px;
+	bottom:15px;
+	
+}

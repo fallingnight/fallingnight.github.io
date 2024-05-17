@@ -1,0 +1,100 @@
+@font-face{
+	font-family:"starset";
+	src:url("../fonts/star.ttf");
+}
+
+*{
+	font-family:"starset";
+	margin:0;
+	padding:0;
+}
+
+
+html {
+    background-image:url("../pics/background3.jpg");
+	background-attachment:fixed;
+}
+.navmenu{
+	margin-left:15px;
+	overflow:auto;
+	zoom:1;
+}
+
+.navmenu ul{
+	margin-bottom:20px;
+}
+
+.navmenu li{
+      list-style:none;
+	line-height:54px;
+	font-size:1.1em;
+	position:relative;
+}
+.navmenu .sonmenu {
+	display:none;
+	font-size:14px;
+	float:right;
+	margin-right:25px;
+}
+.navmenu .sonmenu li{
+	width:110px;
+		line-height:40px;
+	border-bottom:dashed 1px #ccc;
+}
+.navmenu .hovermenu{
+	zoom:1;
+	overflow:auto;
+}
+.navmenu .hovermenu:hover .sonmenu{
+	display:block;
+}
+.navmenu .fathermenu{
+	clear:both;
+	margin-right:25px;
+	border-bottom:dashed 1px #ccc;
+}
+
+.navmenu a{
+	color:#565070;
+	text-decoration: none;
+}
+.navmenu .fathermenu:hover a,.navmenu .sonmenu li:hover a{
+	color:#bbb5ce;
+}
+.navmenu .straighthighlight{
+	height:55px;
+	width:8px;
+	float:left;
+	margin-right:10px;
+	background-color:#fff;
+}
+
+.navmenu .hovermenu:hover .straighthighlight{
+	background-color:#bbb5ce;
+	transition:all 0.3s ease-in-out;
+	
+}
+.navmenu .straighthighlight2{
+	height:40px;
+	width:6px;
+	float:left;
+	margin-right:10px;
+	background-color:#fff;
+}
+.navmenu .sonmenu li:hover .straighthighlight2{
+	background-color:#bbb5ce;
+	transition:all 0.3s ease-in-out;
+	
+}
+.line{
+	width:680px;
+	height:6px;
+	background-image:linear-gradient(90deg,#bbb5ce,#EBF3FC);
+}
+
+
+hr{
+height:2px;
+border:1px #990033 dotted;
+margin:10px 0px 0px 0px;
+}
