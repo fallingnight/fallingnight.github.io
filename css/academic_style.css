@@ -65,7 +65,6 @@ a:hover {
 .webtext table {
     margin-left: 5px;
     font-size: 15px;
-    line-height: 40px;
     overflow: auto;
     zoom: 1;
     margin-top: -2px;
@@ -76,6 +75,7 @@ a:hover {
     color: #565070;
     border-bottom: dashed 1px #ccc;
     position: relative;
+    line-height: 40px;
 }
 
 .webtext table td:first-child a {
@@ -91,6 +91,11 @@ a:hover {
 
 .webtext table tr:last-child td {
     border: none;
+}
+
+.webtext table td .table_line {
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .webtext table td a {
